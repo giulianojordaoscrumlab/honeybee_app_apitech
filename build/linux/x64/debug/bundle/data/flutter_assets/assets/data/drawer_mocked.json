@@ -1,0 +1,79 @@
+{
+"drawerItems" : 
+    [
+        {
+            "type": "iconbutton",
+            "expandable": false,
+            "iconType": "icon",
+            "icon":  "universojungle",
+            "label": "Universo Jungle",
+            "enabled": false,
+            "route": "/universojungle"
+        },
+        {
+            "type": "iconbutton",
+            "iconType": "icon",
+            "expandable": false,
+            "icon":  "profile",
+            "label": "Perfil",
+            "enabled": true,
+            "route": "/profile"
+        },
+        {
+            "type": "iconbutton",
+            "iconType": "icon",
+            "expandable": false,
+            "icon":  "videos",
+            "label": "Vídeos",
+            "enabled": true,
+            "route": "/videos"
+        },
+        {
+            "type": "iconbutton",
+            "expandable": true,
+            "iconType": "icon",
+            "icon":  "partners",
+            "label": "Parceiros",
+            "enabled": true,
+            "route": "/junglepass",
+            "childrens": [
+                {
+                    "type": "button",
+                    "iconType": "none",
+                    "expandable": false,
+                    "icon":  "",
+                    "label": "Selva Bet",
+                    "enabled": false,
+                    "route": "/selvabet"
+                }
+            ]
+        },
+        {
+            "type": "button",
+            "iconType": "none",
+            "expandable": false,
+            "icon":  "",
+            "label": "Política de privacidade",
+            "enabled": true,
+            "route": "/privacyStatic"
+        },
+        {
+            "type": "button",
+            "iconType": "none",
+            "expandable": false,
+            "icon":  "",
+            "label": "Termos de uso",
+            "enabled": true,
+            "route": "/termsStatic"
+        },
+        {
+            "type": "button",
+            "iconType": "none",
+            "expandable": false,
+            "icon":  "",
+            "label": "Sair",
+            "enabled": true,
+            "route": "/sair"
+        }
+    ]
+}

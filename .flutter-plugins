@@ -1,0 +1,23 @@
+# This is a generated file; do not edit or check into version control.
+android_intent_plus=/home/giuliano/.pub-cache/hosted/pub.dev/android_intent_plus-3.1.6/
+connectivity_plus=/home/giuliano/.pub-cache/hosted/pub.dev/connectivity_plus-3.0.3/
+flutter_inappwebview=/home/giuliano/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/
+path_provider_linux=/home/giuliano/.pub-cache/hosted/pub.dev/path_provider_linux-2.1.9/
+path_provider_windows=/home/giuliano/.pub-cache/hosted/pub.dev/path_provider_windows-2.1.4/
+shared_preferences=/home/giuliano/.pub-cache/hosted/pub.dev/shared_preferences-2.0.18/
+shared_preferences_android=/home/giuliano/.pub-cache/hosted/pub.dev/shared_preferences_android-2.0.16/
+shared_preferences_foundation=/home/giuliano/.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.1.4/
+shared_preferences_linux=/home/giuliano/.pub-cache/hosted/pub.dev/shared_preferences_linux-2.1.4/
+shared_preferences_web=/home/giuliano/.pub-cache/hosted/pub.dev/shared_preferences_web-2.0.5/
+shared_preferences_windows=/home/giuliano/.pub-cache/hosted/pub.dev/shared_preferences_windows-2.1.4/
+url_launcher=/home/giuliano/.pub-cache/hosted/pub.dev/url_launcher-6.1.10/
+url_launcher_android=/home/giuliano/.pub-cache/hosted/pub.dev/url_launcher_android-6.0.24/
+url_launcher_ios=/home/giuliano/.pub-cache/hosted/pub.dev/url_launcher_ios-6.1.1/
+url_launcher_linux=/home/giuliano/.pub-cache/hosted/pub.dev/url_launcher_linux-3.0.3/
+url_launcher_macos=/home/giuliano/.pub-cache/hosted/pub.dev/url_launcher_macos-3.0.3/
+url_launcher_web=/home/giuliano/.pub-cache/hosted/pub.dev/url_launcher_web-2.0.15/
+url_launcher_windows=/home/giuliano/.pub-cache/hosted/pub.dev/url_launcher_windows-3.0.4/
+video_player=/home/giuliano/.pub-cache/hosted/pub.dev/video_player-2.5.3/
+video_player_android=/home/giuliano/.pub-cache/hosted/pub.dev/video_player_android-2.3.11/
+video_player_avfoundation=/home/giuliano/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.4.0/
+video_player_web=/home/giuliano/.pub-cache/hosted/pub.dev/video_player_web-2.0.14/

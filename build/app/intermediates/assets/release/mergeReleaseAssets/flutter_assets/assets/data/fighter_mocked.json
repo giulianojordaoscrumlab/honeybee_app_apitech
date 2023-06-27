@@ -1,0 +1,98 @@
+{
+    "_id":{
+       "$oid":"64160d64227c6585f7344d29"
+    },
+    "name":"Wallid Ismail",
+    "category":"MEIO PESADO",
+    "gender":"masculino",
+    "canBeFollowed":true,
+    "ranking":1,
+    "hanking":1,
+    "goldenHolic": {
+        "position": 1,
+        "value": "100:1",
+        "better": "11:4"
+     },
+    "bio":{
+       "otherNames":[
+          "Gracies Killer (Matador de Gracies)",
+          "The Destroyer"
+       ],
+       "age":55,
+       "birthdate":"1968-02-22 00:00:00",
+       "birthPlace":"Manaus, AM, Brasil",
+       "description":"Wallid começou sua carreira treinando Jiu-jitsu brasileiro sob Carlson Gracie, onde se tornou campeão de múltiplos torneios nacionais. Também lutou no MMA, começando com desafios de vale-tudo contra lutadores da Luta Livre, passando por organizações como o IVC, UFC e PRIDE. Fez uma breve passagem pela Luta Livre Profissional na NJPW.\nAtualmente é o presidente do maior evento de MMA da América Latina, o Jungle Fight. E foi empresário de múltiplos lutadores brasileiros, incluindo Paulo Borrachinha e Deiveson Figueiredo.",
+       "career":"Wallid Ismail foi oito vezes campeão brasileiro de Jiu-Jitsu e Campeão mundial de Vale-tudo pelo IVC. Em 1992 Wallid venceu Ralph Gracie e em 1993 Wallid venceu Renzo Gracie em luta de uma hora no ginásio do Clube de Regatas Flamengo.\nNo MMA, começou sua carreira no vale-tudo: Em 1991 ele causou um alvoroço após declarar em um jornal que a Luta livre era nada mais que uma \"cópia barata\" e inferior do jiu-jitsu. As suas provocações quase causaram uma guerra entre apoiadores das duas artes marciais, com lutadores da Luta Livre invadindo um torneio de jiu-jitsu procurando uma luta com Wallid. Até que o a controvérsia foi amenizada ao marcar o evento Desafio - Jiu Jitsu vs Luta Livre, evento de Vale-tudo entre as duas artes marciais. Wallid Isamil lutou no Desfaio onde derrotou Eugênio Tadeu da Luta Livre.\nApós disso, lutou na Universal Vale Tudo Fighting em 1996. Na sua terceira luta derrotou o japonês Katsumi Usuta, e houve uma revanche entre os dois no evento U Japan. Após chamar atenção pelo seu jiu-jitsu e experiência no vale-tudo, Ismail foi convidado a participar do UFC no evento UFC 12 contra o veterano do Pancrase Kazuo Takashida. A luta foi considerada bizarra por ambos lutadores parecerem desconhecer as regras do evento, Takashida pensou que havia uma contagem de 10 após um nocaute e pediu um time-out como no Pancrase, não sabia o tempo de duração da luta e retirou o protetor genital de Wallid após saber que golpes da virilha eram permitidos, enquanto Wallid se segurava na grade e atingia os olhos de seu oponente. No Brasil participou do evento International Vale Tudo Championship com duas vitórias.\nEm 1998 Wallid Ismail derrotou Royce Gracie em um evento de Jiu-Jitsu no Rio de Janeiro. Depois de tantas vitórias perante membros da Família Gracie, Wallid ganhou o apelido \"Gracies Killer\" (Matador de Gracies). Após a vitória, Wallid mudou-se para os Estados Unidos onde começou a ser representado por Antonio Inoki e foi lutar no Japão. Começou a lutar no PRIDE Fighting Championships onde teve três lutas mas duas derrotas, e finalizou a carreira com duas vitórias nos eventos organizados por Antonio Inoki, UFO - Lengend e Inoki Bom-Ba-Ye.\nCom suas ligações com Antonio Inoki, Wallid Ismail fez brevemente parte da companhia de Luta Livre profissional New Japan Pro Wrestling, onde participou de alguns shows.\nApós se aposentar, em 2003, Wallid criou o evento Jungle Fight Championship que foi considerado o maior evento de MMA da América Latina.\nPolêmico, acumulou rixas com alguns nomes do Vale-tudo e da comunidade do Jiu-Jitsu, como o falecido Ryan Gracie e seu irmão Renzo Gracie.",
+       "graduations": [
+          "Faixa preta 5º grau em Jiu-jitsu brasileiro"
+       ],
+       "fighting":false,
+       "height":170,
+       "weight":83,
+       "modalities":[
+          "Jiu-jitsu brasileiro"
+       ],
+       "nationality":"brasileira",
+       "organizations":[
+          "HoneyBee",
+          "Carlson Gracie Team"
+       ],
+       "personalLife":"Wallid é descendente de libaneses, e é muçulmano.",
+       "mmaCartel": {
+          "wins":9,
+          "total":12,
+          "looses":3,
+          "bydecision":2,
+          "finalizations":5,
+          "knockouts":2
+       },
+       "socialNetworks":[
+          {
+             "name":"instagram",
+             "uri":"https://www.instagram.com/wallidjfc/?hl=pt"
+          }
+        ]
+    },
+    "images":[
+        {
+            "filename":"https://www2-cdn.sherdog.com/_images/pictures/20230314051715_30.PNG",
+            "name":"Uma foto rara de Walli e Renzo Gracie em um encontro amistoso no campeonato brasileiro de 1994"
+        },
+        {
+            "filename":"https://www4-cdn.sherdog.com/_images/pictures/20230314051638_24.PNG",
+            "name":"Cinco anos depois de derrotar Renzo por 9-0, Wallid derrota Royce Gracie em campeonato de Jiu-jitsu em uma arena na praia de Copacabana (Rio de Janeiro - RJ)"
+        },
+        {
+            "filename":"https://www4-cdn.sherdog.com/_images/pictures/20230314051401_20.PNG",
+            "name":"Wallid e Renzo"
+        },
+        {
+            "filename":"https://www4-cdn.sherdog.com/_images/pictures/20230314051331_18.PNG",
+            "name":"Wallid ditando o rítmo da luta"
+        }
+    ],
+    "videosYTSL":[
+            {
+                "name":"Wallid Ismail x Royce Gracie",
+                "description":"Na grande luta que todos esperaram durante anos. Wallid Ismail e Royce Gracie se enfrentaram numa luta sem tempo e sem pontos, só terminando por finalização ou por desistência do oponente. Wallid era muito mais baixo que Royce, mas era mais forte e tinha um jogo de pressão bem afiado,capaz de amassar e dar calor até no melhor faixa preta. Pois bem, sabendo disso o Gracie não quis chamar pra guarda e trabalhou um Judô simples e eficiente pra derrubar seu oponente.  Wallid rapidamente repôs a meia guarda e ganhou a esgrima que foi importante pra que ele conseguisse a raspada e fosse pra cima com toda a pressão pra passar a guarda do Gracie que na tentativa de impedir e conter Wallid acabou dando as costas, o erro foi tão fatal que o baixinho abusado encaixou um belo reloginho, o golpe foi tão justo que apagou o Gracie pra surpresa de todo o público que adentrava a arena em Copacabana. Wallid enfim provava a todos que era o nome a ser batido e jogava por terra toda a hegemonia da Família Gracie.",
+                "publishedAt":"2020-06-16 02:04:11",
+                "originalThumb":"data:image/jpeg;base64,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",
+                "idYoutube":"Or4MmSB6npQ",
+                "urlYoutube":"https://www.youtube.com/watch?v=Or4MmSB6npQ",
+                "filename":"https://www.youtube.com/watch?v=Or4MmSB6npQ",
+                "initialPosition":0.00,
+                "intervalLoop":false,
+                "loop":false,
+                "isYT":true,
+                "isAsset":false,
+                "autoplay":false,
+                "comments":[
+                    
+                ],
+                "numDeslikes":0,
+                "numLikes":2800000
+            }
+        ],
+        "deleted":false, 
+        "active": true
+    }

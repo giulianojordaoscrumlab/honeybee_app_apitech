@@ -1,0 +1,148 @@
+name: honeybee
+description: HoneyBee App
+
+publish_to: "none"
+
+version: 1.0.0+4
+
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.0
+  platform: ^3.1.0
+  flutter_modular: ^5.0.3
+  crypto: ^3.0.2
+  shared_preferences: ^2.0.6
+  pretty_dio_logger: ^1.1.1
+  mask_text_input_formatter: ^2.4.0
+  intl: ^0.17.0
+  video_player: ^2.4.7
+  # assets_audio_player: ^3.0.5
+  flutter_svg: ^1.1.6
+  step_progress_indicator: ^1.0.2
+  phlox_animations: ^2.1.1
+  url_launcher: ^6.1.6
+  scrollable_positioned_list: ^0.3.5
+  responsive_framework: ^0.2.0
+  connectivity_plus: ^3.0.2
+  awesome_dialog: ^3.0.2
+  # carousel_slider: ^4.2.1
+  flutter_staggered_grid_view: ^0.6.2
+  animations: ^2.0.7
+  # shimmer: ^2.0.0
+  android_intent_plus: ^3.1.6
+
+  scrumlab_youtube_player:
+    git:
+      url: https://github.com/scrum-lab/ScrumLabYoutbubePlayerFlutter.git
+      ref: main
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.11.0
+  flutter_lints: ^1.0.4
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/icons/launcher_icon.png"
+  web:
+    generate: false
+    image_path: "assets/images/icons/launcher_icon.png"
+    background_color: "#F3F3F3"
+    theme_color: "#000000"
+  windows:
+    generate: false
+    image_path: "assets/images/icons/launcher_icon.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: false
+    image_path: "assets/images/icons/launcher_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/videos/
+    - assets/images/
+    - assets/images/v2/
+    - assets/images/icons/
+    - assets/images/icons/drawer/
+    - assets/fonts/
+    - assets/fonts/halimun/
+    - assets/fonts/stella/
+    - assets/data/
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway/Raleway-Black.ttf
+        - asset: assets/fonts/Raleway/Raleway-BlackItalic.ttf
+          style: italic
+        - asset: assets/fonts/Raleway/Raleway-Bold.ttf
+        - asset: assets/fonts/Raleway/Raleway-BoldItalic.ttf
+          style: italic
+        - asset: assets/fonts/Raleway/Raleway-ExtraBold.ttf
+        - asset: assets/fonts/Raleway/Raleway-ExtraBoldItalic.ttf
+          style: italic
+        - asset: assets/fonts/Raleway/Raleway-ExtraLight.ttf
+        - asset: assets/fonts/Raleway/Raleway-ExtraLightItalic.ttf
+          style: italic
+        - asset: assets/fonts/Raleway/Raleway-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Raleway/Raleway-Light.ttf
+        - asset: assets/fonts/Raleway/Raleway-LightItalic.ttf
+          style: italic
+        - asset: assets/fonts/Raleway/Raleway-Medium.ttf
+        - asset: assets/fonts/Raleway/Raleway-MediumItalic.ttf
+          style: italic
+        - asset: assets/fonts/Raleway/Raleway-Regular.ttf
+        - asset: assets/fonts/Raleway/Raleway-SemiBold.ttf
+        - asset: assets/fonts/Raleway/Raleway-SemiBoldItalic.ttf
+          style: italic
+        - asset: assets/fonts/Raleway/Raleway-Thin.ttf
+        - asset: assets/fonts/Raleway/Raleway-ThinItalic.ttf
+          style: italic
+
+    - family: HoneyBeeIcons
+      fonts:
+        - asset: assets/fonts/HoneyBeeIcons.ttf
+
+    - family: HoneyBeeDrawerIcons
+      fonts:
+        - asset: assets/fonts/HoneyBeeDrawerIcons.ttf
+
+    - family: Kanit
+      fonts:
+        - asset: assets/fonts/Kanit-SemiBold.ttf
+        - asset: assets/fonts/Kanit-Regular.ttf
+        - asset: assets/fonts/Kanit-Medium.ttf
+
+    - family: Halimun
+      fonts:
+        - asset: assets/fonts/halimun/Halimun.ttf
+
+    - family: Stella
+      fonts:
+        - asset: assets/fonts/stella/Stella.ttf
+
+    - family: ScrumlabIconsSocialMedia
+      fonts:
+        - asset: assets/fonts/ScrumlabIconsSocialMedia.ttf
+
+    - family:  HoneyBeeSocialMedias
+      fonts:
+        - asset: assets/fonts/HoneyBeeSocialMedias.ttf
+
+    - family: PasswordIcons
+      fonts:
+        - asset: assets/fonts/PasswordIcons.ttf
