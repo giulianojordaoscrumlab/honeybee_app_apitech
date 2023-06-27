@@ -72,7 +72,7 @@ class _LogoutPageState extends State<LogoutPage> {
                 ),
                 Center(
                   child: Text(
-                    'Realmente deseja encerrar o Jungle Fight?',
+                    'Realmente deseja encerrar o Honey Bee?',
                     style: HoneyBeeText.buttonLabel.copyWith(
                       fontSize: 18,
                       color: AppColors.primary4,

@@ -1,0 +1,4 @@
+#Tue Jun 27 19:42:57 BRT 2023
+base.0=/home/giuliano/Projects/Apiary/honeybee_app/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -3,7 +3,7 @@
 import 'package:honeybee/const/enums.dart';
 
 class Env {
-  static const String TITLE = "Jungle Fight";
+  static const String TITLE = "Honey Bee";
 
   static const String urlBase =
       "http://backend.honeybee.scrumlab.dev.br/api/v1";

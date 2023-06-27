@@ -3,15 +3,6 @@
     [
         {
             "type": "iconbutton",
-            "expandable": false,
-            "iconType": "icon",
-            "icon":  "universojungle",
-            "label": "Universo Jungle",
-            "enabled": false,
-            "route": "/universojungle"
-        },
-        {
-            "type": "iconbutton",
             "iconType": "icon",
             "expandable": false,
             "icon":  "profile",

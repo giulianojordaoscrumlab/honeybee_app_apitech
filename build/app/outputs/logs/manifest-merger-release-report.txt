@@ -20,7 +20,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/giuli
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] /home/giuliano/.gradle/caches/transforms-3/270e9501dde0430a83746f97bf9ab544/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/giuliano/Projects/Apiary/honeybee_app/android/app/src/main/AndroidManifest.xml:8:9-36
+		ADDED from /home/giuliano/Projects/Apiary/honeybee_app/android/app/src/main/AndroidManifest.xml:8:9-33
 	android:icon
 		ADDED from /home/giuliano/Projects/Apiary/honeybee_app/android/app/src/main/AndroidManifest.xml:12:9-45
 	android:networkSecurityConfig
