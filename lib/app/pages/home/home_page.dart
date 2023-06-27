@@ -62,10 +62,37 @@ class _HomePageState extends State<HomePage> {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        "Apiários",
-                        style: HoneyBeeText.h2
-                            .copyWith(color: AppColors.moduleButtonLabelColor),
+                      Row(
+                        children: [
+                          Text(
+                            "Apiários",
+                            style: HoneyBeeText.h2.copyWith(
+                                color: AppColors.moduleButtonLabelColor),
+                          ),
+                          const SizedBox(
+                            width: 16.0,
+                          ),
+                          InkWell(
+                            onTap: () =>
+                                Modular.to.navigate(NamedRoutes.APIARIES),
+                            child: Container(
+                              width: 24,
+                              height: 24,
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  image: Image.asset(
+                                          "assets/images/backgrounds/hive_bg.png")
+                                      .image,
+                                ),
+                              ),
+                              child: const Icon(
+                                Icons.add,
+                                size: 18,
+                                color: AppColors.whiteTitle,
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
                       const SizedBox(
                         height: 12,
@@ -115,6 +142,23 @@ class _HomePageState extends State<HomePage> {
                                       ),
                                     ),
                                   )),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(right: 8.0, top: 8.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      InkWell(
+                        onTap: () => Modular.to.navigate(NamedRoutes.APIARIES),
+                        child: Text(
+                          "Ver todos",
+                          style: HoneyBeeText.buttonLabel.copyWith(
+                            color: AppColors.primary1,
+                          ),
                         ),
                       ),
                     ],

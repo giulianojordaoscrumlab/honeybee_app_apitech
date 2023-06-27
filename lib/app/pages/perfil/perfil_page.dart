@@ -142,8 +142,9 @@ class _HomePageState extends State<PerfilPage> {
                 errorBorderColor: AppColors.onError,
                 disabledBorderColor: AppColors.primary2,
                 enabled: false,
-                fillColor: Colors.transparent,
-                filled: false,
+                fillColor: AppColors.primary2,
+                filled: true,
+                labelColor: AppColors.moduleButtonLabelColor,
                 colorText: AppColors.moduleButtonLabelColor,
                 labelText: "Nome Completo",
                 focusNode: FocusNode(),
@@ -162,10 +163,12 @@ class _HomePageState extends State<PerfilPage> {
                 errorBorderColor: AppColors.onError,
                 disabledBorderColor: AppColors.primary2,
                 enabled: false,
-                fillColor: Colors.transparent,
-                filled: false,
+                fillColor: AppColors.primary2,
+                filled: true,
+                labelColor: AppColors.moduleButtonLabelColor,
                 labelText: "E-mail",
                 focusNode: FocusNode(),
+                colorText: AppColors.moduleButtonLabelColor,
                 controller: TextEditingController(
                   text: controller
                       .retornoLogin?.body?.data?.accountData?.userName
@@ -178,7 +181,7 @@ class _HomePageState extends State<PerfilPage> {
               Text(
                 "De acordo com a legislação sobre a proteção de dados e sigilo das informações você pode solicitar a 'suspensão' ou o 'cancelamento' de sua conta. No caso de cancelamento todos os seus dados serão removidos de nossa base de dados de forma não efêmera.",
                 style: HoneyBeeText.h5.copyWith(
-                  color: AppColors.primary4,
+                  color: AppColors.moduleButtonLabelColor,
                 ),
               ),
               const SizedBox(
@@ -187,7 +190,12 @@ class _HomePageState extends State<PerfilPage> {
               SizedBox(
                 width: double.infinity,
                 child: HoneyBeeButton(
-                  child: const Text("Trocar senha"),
+                  child: Text(
+                    "Trocar senha",
+                    style: HoneyBeeText.buttonLabel.copyWith(
+                      color: AppColors.moduleButtonLabelColor,
+                    ),
+                  ),
                   background: AppColors.primary1,
                   onPressed: () =>
                       Modular.to.pushNamed(NamedRoutes.PASSWORDCHANGE),
