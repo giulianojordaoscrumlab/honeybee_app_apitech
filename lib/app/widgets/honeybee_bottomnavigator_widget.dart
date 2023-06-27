@@ -1,84 +1,134 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:honeybee/app/pages/home/home_controller.dart';
 import 'package:honeybee/const/colors.dart';
+import 'package:honeybee/const/text_styles.dart';
 import 'package:honeybee/routes/routes.dart';
 
-class HoneyBeeBottomNavigationBar extends StatefulWidget {
-  const HoneyBeeBottomNavigationBar({super.key, required this.selectedIndex});
-  final int selectedIndex;
+class HoneyBeeBottomNavHive extends StatelessWidget {
+  const HoneyBeeBottomNavHive({
+    super.key,
+  });
 
-  @override
-  State<HoneyBeeBottomNavigationBar> createState() =>
-      _HoneyBeeBottomNavigationBarState();
-}
-
-class _HoneyBeeBottomNavigationBarState
-    extends State<HoneyBeeBottomNavigationBar> {
-  HomeController homeController = HomeController();
   @override
   Widget build(BuildContext context) {
-    return BottomNavigationBar(
-      enableFeedback: true,
-      onTap: (value) {
-        switch (value) {
-          case 0:
-            Modular.to.pushNamed(NamedRoutes.HOME);
-            break;
-          case 1:
-            Modular.to.pushNamed(NamedRoutes.FIGHTS);
-            break;
-          case 2:
-            Modular.to.pushNamed(NamedRoutes.FIGHTERS);
-            break;
-          case 3:
-            Modular.to.pushNamed(NamedRoutes.NEWS);
-            break;
-          case 4:
-            Modular.to.pushNamed(NamedRoutes.JUNGLEVERSE);
-            break;
-        }
-        homeController.setSelectedBottomNavigatorIndex(value);
-      },
-      currentIndex: widget.selectedIndex,
-      elevation: 0,
-      iconSize: 24,
-      selectedItemColor: AppColors.primary1,
-      unselectedItemColor: AppColors.primary4,
-      selectedFontSize: 14,
-      unselectedFontSize: 14,
-      showSelectedLabels: true,
-      showUnselectedLabels: true,
-      backgroundColor: AppColors.primary,
-      type: BottomNavigationBarType.fixed,
-      items: const [
-        BottomNavigationBarItem(
-          icon: Icon(Icons.home, color: AppColors.blackTitle),
-          activeIcon: Icon(Icons.home, color: AppColors.whiteTitle),
-          label: "Início",
+    return Positioned(
+      bottom: 0,
+      left: 0,
+      child: Container(
+        height: 80,
+        margin: const EdgeInsets.only(
+          bottom: 5,
         ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.beenhere_rounded, color: AppColors.blackTitle),
-          activeIcon: Icon(Icons.beenhere_rounded, color: AppColors.whiteTitle),
-          label: "Apiários",
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.bookmark, color: AppColors.blackTitle),
-          activeIcon: Icon(Icons.bookmark, color: AppColors.whiteTitle),
-          label: "Colméias",
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.menu_book_outlined, color: AppColors.blackTitle),
-          activeIcon:
-              Icon(Icons.menu_book_outlined, color: AppColors.whiteTitle),
-          label: "Diários",
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.history, color: AppColors.blackTitle),
-          activeIcon: Icon(Icons.history, color: AppColors.whiteTitle),
-          label: "Histórico",
-        ),
-      ],
+        width: MediaQuery.of(context).size.width,
+        color: AppColors.transparent,
+        child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: [
+          InkWell(
+            onTap: () => Modular.to.navigate(NamedRoutes.HIVES),
+            child: Container(
+                width: MediaQuery.of(context).size.width / 5,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    fit: BoxFit.contain,
+                    isAntiAlias: true,
+                    image: Image.asset(
+                      "assets/images/backgrounds/hive_bg.png",
+                      alignment: Alignment.center,
+                    ).image,
+                  ),
+                ),
+                child: Center(
+                  child: Text("COLMÉIAS",
+                      style: HoneyBeeText.h6.copyWith(
+                          color: AppColors.defaultLabelButtonColor,
+                          fontWeight: FontWeight.w600)),
+                )),
+          ),
+          InkWell(
+            onTap: () => Modular.to.navigate(NamedRoutes.APIARIES),
+            child: Container(
+                width: MediaQuery.of(context).size.width / 5,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    fit: BoxFit.contain,
+                    isAntiAlias: true,
+                    image: Image.asset(
+                      "assets/images/backgrounds/hive_bg.png",
+                      alignment: Alignment.topCenter,
+                    ).image,
+                  ),
+                ),
+                child: Center(
+                  child: Text("APIÁRIOS",
+                      style: HoneyBeeText.h6.copyWith(
+                          color: AppColors.defaultLabelButtonColor,
+                          fontWeight: FontWeight.w600)),
+                )),
+          ),
+          InkWell(
+            onTap: () => Modular.to.navigate(NamedRoutes.JOURNALS),
+            child: Container(
+                width: MediaQuery.of(context).size.width / 5,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    fit: BoxFit.contain,
+                    isAntiAlias: true,
+                    image: Image.asset(
+                      "assets/images/backgrounds/hive_bg.png",
+                      alignment: Alignment.topCenter,
+                    ).image,
+                  ),
+                ),
+                child: Center(
+                  child: Text("DIÁRIOS",
+                      style: HoneyBeeText.h6.copyWith(
+                          color: AppColors.defaultLabelButtonColor,
+                          fontWeight: FontWeight.w600)),
+                )),
+          ),
+          InkWell(
+            onTap: () => Modular.to.navigate(NamedRoutes.BEES),
+            child: Container(
+                width: MediaQuery.of(context).size.width / 5,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    fit: BoxFit.contain,
+                    isAntiAlias: true,
+                    image: Image.asset(
+                      "assets/images/backgrounds/hive_bg.png",
+                      alignment: Alignment.topCenter,
+                    ).image,
+                  ),
+                ),
+                child: Center(
+                  child: Text("ABELHAS",
+                      style: HoneyBeeText.h6.copyWith(
+                          color: AppColors.defaultLabelButtonColor,
+                          fontWeight: FontWeight.w600)),
+                )),
+          ),
+          InkWell(
+            onTap: () => Modular.to.navigate(NamedRoutes.PROFILE),
+            child: Container(
+                width: MediaQuery.of(context).size.width / 5,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    fit: BoxFit.contain,
+                    isAntiAlias: true,
+                    image: Image.asset(
+                      "assets/images/backgrounds/hive_bg.png",
+                      alignment: Alignment.topCenter,
+                    ).image,
+                  ),
+                ),
+                child: Center(
+                  child: Text("PERFIL",
+                      style: HoneyBeeText.h6.copyWith(
+                          color: AppColors.defaultLabelButtonColor,
+                          fontWeight: FontWeight.w600)),
+                )),
+          ),
+        ]),
+      ),
     );
   }
 }

@@ -74,6 +74,8 @@ flutter:
   assets:
     - assets/videos/
     - assets/images/
+    - assets/images/icons/botoes/
+    - assets/images/backgrounds/
     - assets/images/v2/
     - assets/images/icons/
     - assets/images/icons/drawer/

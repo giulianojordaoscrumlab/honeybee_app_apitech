@@ -6,8 +6,8 @@ class Env {
   static const String TITLE = "Jungle Fight";
 
   static const String urlBase =
-      // "http://backend.honeybee.scrumlab.dev.br/api/v1";
-      "http://localhost:4002/api/v1";
+      "http://backend.honeybee.scrumlab.dev.br/api/v1";
+  //"http://localhost:4002/api/v1";
 
   // : "http://honeybee.scrumlab.dev.br:4002/api/v1";
 
@@ -43,7 +43,7 @@ class Env {
   static const String methodPostPasswordRecoveryByCode = "/users/recoryByCode";
 
 //! endpoint getNewsHome
-  static const String methodPostFetchAllNews = "/news/findAll";
+  static const String methodPostFetchAllApiaries = "/apiaries/findAll";
 
 //! endpoint getVideosPageData
   static const String methodPostFetchAllVideos = "/system/getAllYtslVideos";

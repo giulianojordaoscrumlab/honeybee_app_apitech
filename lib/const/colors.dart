@@ -92,13 +92,20 @@ class AppColors {
   static const blueTitle = Color(0xFF0000F6);
 
   //! BUTTON COLORS
-  static const disabledButtonColor = Color.fromARGB(108, 93, 95, 100);
-  static const defaultButtonColor = Color(0xFFF40000);
-  static const pressedButtonColor = Color(0xFFFA1414);
+  static const disabledButtonColor = Color(0xFFFFE394);
+  static const defaultButtonColor = Color(0xFFFFC62A);
+  static const pressedButtonColor = Color(0xFFF5B506);
+  static const defaultLabelButtonColor = Color(0xFF795A3E);
+  static const disabledLabelButtonColor = Color(0xFF867261);
+  static const moduleButtonColor = Color(0xFFF4CE66);
+  static const moduleButtonLabelColor = Color(0xFF7A5B3E);
 
   //! FORM FIELD COLORS
-  static const formFieldLabelColor = Color(0xFFF4F3F3);
-  static const formFieldTextColor = Color(0xFF303030);
+  static const formFieldLabelColor = Color(0xFF7A5B3E);
+  static const formFieldBackgroundColor = Color(0xFFF4CE66);
+  static const formFieldDefaultBorderColor = Color(0xFFFFC62A);
+  static const formFieldSelectedBorderColor = Color(0xFF7A5B3E);
+  static const formFieldTextColor = Color(0xFF7A5B3E);
   static const loginScreenForget = Color(0xFF000000);
   static const loginScreenRegister = Color(0xFFF82222);
   static const formFieldGrayBorder = Color(0xFF676767);

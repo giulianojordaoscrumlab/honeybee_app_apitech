@@ -40,6 +40,26 @@ class Routes {
       transition: TransitionType.fadeIn,
     ),
     ChildRoute(
+      NamedRoutes.BEES,
+      child: (_, __) => const HomePage(),
+      transition: TransitionType.fadeIn,
+    ),
+    ChildRoute(
+      NamedRoutes.APIARIES,
+      child: (_, __) => const HomePage(),
+      transition: TransitionType.fadeIn,
+    ),
+    ChildRoute(
+      NamedRoutes.HIVES,
+      child: (_, __) => const HomePage(),
+      transition: TransitionType.fadeIn,
+    ),
+    ChildRoute(
+      NamedRoutes.JOURNALS,
+      child: (_, __) => const HomePage(),
+      transition: TransitionType.fadeIn,
+    ),
+    ChildRoute(
       NamedRoutes.PROFILE,
       child: (_, __) => const PerfilPage(),
       transition: TransitionType.fadeIn,
@@ -82,6 +102,11 @@ class NamedRoutes {
   static const LOGIN = "/login";
   //! Home
   static const HOME = "/home";
+
+  static const HIVES = "/hives";
+  static const APIARIES = "/apiaries";
+  static const JOURNALS = "/journals";
+  static const BEES = "/bees";
 
   //! Passord Reset
   static const FORGOTPASSWORD = "/forgotpassword";

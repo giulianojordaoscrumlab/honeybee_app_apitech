@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:honeybee/app/pages/home/home_controller.dart';
-import 'package:honeybee/app/widgets/honeybee_bottomnavigator_widget.dart';
 import 'package:honeybee/app/widgets/honeybee_button_widget.dart';
 import 'package:honeybee/app/widgets/honeybee_degradee_horizontal_line_separator.dart';
 import 'package:honeybee/app/widgets/honeybee_textfield_widget.dart';
@@ -9,7 +8,6 @@ import 'package:honeybee/const/colors.dart';
 import 'package:honeybee/const/icons/icons_package_honeybee.dart';
 import 'package:honeybee/const/text_styles.dart';
 import 'package:honeybee/routes/routes.dart';
-import 'package:honeybee/shared/enum.dart';
 
 class PerfilPage extends StatefulWidget {
   const PerfilPage({super.key});
@@ -36,11 +34,6 @@ class _HomePageState extends State<PerfilPage> {
     controller.setScreenWidth(MediaQuery.of(context).size.width);
     controller.setScreenHeight(MediaQuery.of(context).size.height);
 
-    if (controller.drawerData == null ||
-        controller.drawerState != DrawerState.initialized) {
-      controller.getDrawerStrucuture(context);
-    }
-
     List<Widget> actions = [
       Padding(
         padding: const EdgeInsets.only(
@@ -59,13 +52,13 @@ class _HomePageState extends State<PerfilPage> {
 
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      backgroundColor: AppColors.pageMainBackground,
-      bottomNavigationBar: HoneyBeeBottomNavigationBar(
-        selectedIndex: controller.selectedBottomNavigatorIndex,
-      ),
+      backgroundColor: AppColors.background,
+      // bottomNavigationBar: HoneyBeeBottomNavigationBar(
+      //   selectedIndex: controller.selectedBottomNavigatorIndex,
+      // ),
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: AppColors.pageMainBackground,
+        backgroundColor: AppColors.primary,
         centerTitle: true,
         primary: true,
         iconTheme: const IconThemeData(size: 32, color: AppColors.primary4),
@@ -122,16 +115,12 @@ class _HomePageState extends State<PerfilPage> {
             children: [
               Center(
                 child: Container(
-                  padding: EdgeInsets.zero,
-                  child: CircleAvatar(
-                    backgroundColor: AppColors.primary1,
-                    radius: 75,
-                    foregroundImage: Image.asset(
-                      "assets/images/v2/avatar_nopic.png",
+                    padding: EdgeInsets.zero,
+                    child: Image.asset(
+                      "assets/images/icons/botoes/profile.png",
                       fit: BoxFit.cover,
-                    ).image,
-                  ),
-                ),
+                      color: AppColors.moduleButtonLabelColor,
+                    )),
               ),
               const SizedBox(
                 height: 20,
@@ -139,7 +128,7 @@ class _HomePageState extends State<PerfilPage> {
               Text(
                 "Meus dados",
                 style: HoneyBeeText.h3.copyWith(
-                  color: AppColors.primary4,
+                  color: AppColors.moduleButtonLabelColor,
                 ),
               ),
               const HoneyBeeHorizontalLineSeparator(),
@@ -155,6 +144,7 @@ class _HomePageState extends State<PerfilPage> {
                 enabled: false,
                 fillColor: Colors.transparent,
                 filled: false,
+                colorText: AppColors.moduleButtonLabelColor,
                 labelText: "Nome Completo",
                 focusNode: FocusNode(),
                 controller: TextEditingController(

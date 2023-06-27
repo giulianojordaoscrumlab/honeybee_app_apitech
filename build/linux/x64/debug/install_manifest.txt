@@ -8,6 +8,11 @@
 /home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/icons/icon_btn_menu.svg
 /home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/icons/icon_btn_filter.svg
 /home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/icons/icon_btn_search.svg
+/home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/icons/botoes/apiary.png
+/home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/icons/botoes/hive.png
+/home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/icons/botoes/bee,png
+/home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/icons/botoes/profile.png
+/home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/icons/botoes/journal.png
 /home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/icons/icon_btn_diversity.svg
 /home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/icons/youtube.png
 /home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/icons/icon_btn_done.svg
@@ -31,6 +36,8 @@
 /home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/icons/icon_btn_close.svg
 /home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/icons/icon_btn_left_arrow.svg
 /home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/icons/tiktok.png
+/home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/backgrounds/main_bg.png
+/home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/backgrounds/hive_bg.png
 /home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/honeybee_logo.png
 /home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/v2/logojfc_nobg.png
 /home/giuliano/Projects/Apiary/honeybee_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/v2/border_looses.png
